@@ -1,0 +1,16 @@
+.navBtn {
+	background-color: transparent;
+	display: flex;
+  flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 5rem;
+	width: 1.8rem;
+  height: 1.5rem;
+	margin: 0 1rem;
+}
+.navBtn:hover {
+	cursor: pointer;
+	box-shadow: 0px 0px 10px #c0b7e8;
+}

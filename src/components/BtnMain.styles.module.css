@@ -1,0 +1,18 @@
+.btnStyle {
+	width: 10rem;
+	font-weight: 600;
+	font-size: 14px;
+	background: linear-gradient(
+		90deg,
+		rgba(130, 119, 176, 1) 0%,
+		rgba(191, 182, 231, 1) 50%
+	);
+	border-radius: 3rem;
+	color: #343045;
+	font-family: sans-serif;
+	font-weight: 600;
+	padding: 1rem;
+}
+.btnStyle:hover {
+	color: #ffff;
+}

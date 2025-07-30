@@ -1,0 +1,129 @@
+.bgImageContainer {
+	background-image: url("public/hero-bg-mobile.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 800px;
+	width: 100%;
+	z-index: -999;
+}
+.container {
+	display: grid;
+	background-color: #ffffff00;
+	grid-template-columns: 2;
+	margin: 0 3rem;
+	padding-top: 7rem;
+}
+.mainContent {
+	background-color: #ffffff00;
+	color: #ffff;
+	grid-row: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	margin-top: 2rem;
+}
+.mainContent h1 {
+	background: transparent;
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+}
+.mainContent p {
+	display: none;
+}
+.imgHidden {
+	display: none;
+}
+.imgContainer {
+	grid-row: 1;
+	margin: 2rem auto;
+	background-color: #ffffff00;
+}
+.imgContainer img {
+	border: 1rem solid;
+	border-color: rgba(0, 0, 0, 0.1);
+	border-radius: 90px 90px 90px 200px;
+	background-color: transparent;
+	max-width: 100%;
+}
+.gradientTxt {
+	background: linear-gradient(
+		90deg,
+		rgba(130, 119, 176, 1) 0%,
+		rgba(191, 182, 231, 1) 50%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.buildYWord {
+	background-color: transparent;
+	margin-bottom: 2rem;
+}
+.sliderComponentSyle {
+	width: 100%;
+	margin: 2rem auto;
+	padding: 0 1rem;
+}
+@media screen and (min-width: 992px) {
+	.bgImageContainer {
+		background-image: url("/public/hero-vector.png");
+		background-position: bottom;
+	}
+	.container {
+		display: grid;
+		background-color: transparent;
+		grid-template-columns: 2fr 1fr;
+		padding-top: 160px;
+		margin: 0 4rem;
+	}
+	.mainContent {
+		grid-column: 1;
+		grid-row: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.mainContent h1 {
+		font-size: 3rem;
+		text-align: left;
+	}
+	.mainContent p {
+		display: block;
+		width: 477px;
+		color: #c0b7e8;
+		background-color: transparent;
+	}
+	.imgContainer {
+		grid-column: 2;
+	}
+	.buildYWord {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		background-color: transparent;
+		height: 3.5rem;
+		width: 100%;
+	}
+	.imgHidden {
+		display: block;
+		background-color: transparent;
+		width: 4rem;
+		height: 4rem;
+	}
+	.imgHidden:hover {
+		transform: translateX(-1px);
+		transition: all 0.5s ease;
+	}
+	.imgHidden:not(:hover) {
+		transition: all 0.5s ease;
+		transform: translateX(10px);
+	}
+	.sliderComponentSyle{
+		margin-top: -7rem;
+		padding: 0 5rem;
+	}
+}
