@@ -1,2 +1,2 @@
 # Hydra-Landing-Page
-project landing page
+Landing Page Project
