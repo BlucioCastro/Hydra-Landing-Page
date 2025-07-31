@@ -28,7 +28,7 @@ export default function () {
 				<nav className={styles.navBar}>
 					<ul className={styles.containerUl}>
 						<li>
-							<a href="#">ABOUT</a>
+							<a href="#about" target="_parent">ABOUT</a>
 						</li>
 						<li>
 							<a href="#">SERVICES</a>

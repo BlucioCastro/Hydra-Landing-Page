@@ -1,10 +1,18 @@
 import BtnMain from "./BtnMain";
 import arrowLong from "../assets/arrow-long.png"
 import styles from "./Introduction.styles.module.css"
+import { useMediaQuery } from "react-responsive";
 
 export default function Introduction(){
+  const isMobile = useMediaQuery({maxWidth:992})
+  const styleMobile = isMobile ? {
+    width:"90%", textAlign: "center", fontSize: "1.1rem"
+  }:{
+    width:"14rem", textAlign: "center", fontSize: "1.1rem"
+  }
+
   return(
-    <section>
+    <section id="about">
       <div className={styles.introMainContainer}>
         <div className={styles.containerIntroduction}>
           <h2>
@@ -25,7 +33,7 @@ export default function Introduction(){
         <div>
           <img src="src\assets\about-image.png" alt="aboutImg" className={styles.aboutImg} />
         </div>
-        <div>
+        <div className={styles.containerAbout}>
           <div className={styles.about}>
             <h2>ABOUT</h2>
             <h3>HYDRA VR</h3>
@@ -36,7 +44,7 @@ export default function Introduction(){
             </p>
           </div>
           <div className={styles.containerAboutBtn}>
-            <BtnMain value="Lets Get in Touch" style={{width:"37rem", textAlign: "center", fontSize: "1.1rem"}} />
+            <BtnMain value="Lets Get in Touch" style={styleMobile} />
           </div>
         </div>
       </div>

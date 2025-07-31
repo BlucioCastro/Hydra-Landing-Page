@@ -77,7 +77,7 @@
 		background-color: transparent;
 		grid-template-columns: 2fr 1fr;
 		padding-top: 160px;
-		margin: 0 4rem;
+		margin: 0 5rem;
 	}
 	.mainContent {
 		grid-column: 1;
