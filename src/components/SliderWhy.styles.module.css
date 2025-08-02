@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+	display: flex;
+  flex-direction: row;
+	justify-content: center;
+  align-items: center;
+	margin: 2rem 2rem;
+}
+.card {
+  position: relative;
+	background-image: radial-gradient(
+		circle,
+		rgb(58, 52, 86) 34%,
+		rgb(33, 30, 46) 63%
+	);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 31rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  /* quando for dar os espaçamentos nos elementos dentro do card se bugar é por causa dessa linha do justify */
+}
+.cardImage{
+  border-radius: 7rem;
+  border: 10px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+.line{
+  background-color: rgb(129, 118, 175);
+  height: 1px;
+  margin: 1.5rem auto;
+  width: 80%;
+  padding: .5px;
+}
+.cardDescription{
+  text-align: center;
+}
+.next{
+  background-color: transparent;
+  border: none;
+  border-radius: 5rem;
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  top: 50%;
+  right: 1%;
+}
+.prev{
+  background-color: transparent;
+  border: none;
+  border-radius: 5rem;
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
+.next:hover, .prev:hover{
+  border: 1px solid #c0b7e8;
+  box-shadow: 0px 0px 10px #c0b7e8;
+  cursor: pointer;
+}

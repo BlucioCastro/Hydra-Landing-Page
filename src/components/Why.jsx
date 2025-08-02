@@ -7,7 +7,7 @@ export default function Why(){
   return(
     <section>
       <div>
-        <div>
+        <div className={styles.titleContainer}>
           <div>
             <h2>WHY BUILD</h2>
           </div>
@@ -16,12 +16,12 @@ export default function Why(){
             <img src={arrowLong} alt="arrowLong" className={styles.arrowLongImg}/>
           </div>
         </div>
-        <div>
+        <div className={styles.txtContainer}>
           <p>
             Vitae sapien pellentesque habitant morbi tristique senectus et netus et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
           </p>
         </div>
-        <SliderWhy image={sliderImg} title={"ola"} description={"hey"}/>
+        <SliderWhy image={sliderImg} title={"Simulation"} description={"Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet porttitor rhoncus libero justo laoreet sit amet vitae."}/>
       </div>
     </section>
   )

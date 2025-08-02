@@ -6,11 +6,12 @@
 	align-items: center;
 	border: none;
 	border-radius: 5rem;
-	width: 1.8rem;
-  height: 1.5rem;
+	width: 2rem;
+  height: 2rem;
 	margin: 0 1rem;
 }
 .navBtn:hover {
 	cursor: pointer;
+	border: 1px solid #c0b7e8;
 	box-shadow: 0px 0px 10px #c0b7e8;
 }

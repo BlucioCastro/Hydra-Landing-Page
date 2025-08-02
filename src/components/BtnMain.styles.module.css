@@ -15,4 +15,5 @@
 }
 .btnStyle:hover {
 	color: #ffff;
+	cursor: pointer;
 }
