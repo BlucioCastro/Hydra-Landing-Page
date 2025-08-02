@@ -30,7 +30,7 @@ export default function Introduction(){
         </div>
       </div>
       <div className={styles.aboutSection}>
-        <div>
+        <div className={styles.containerAboutImg}>
           <img src="src\assets\about-image.png" alt="aboutImg" className={styles.aboutImg} />
         </div>
         <div className={styles.containerAbout}>

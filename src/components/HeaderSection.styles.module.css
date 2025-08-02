@@ -26,12 +26,13 @@
 .navBar {
 	position: fixed;
 	background-color: #343045;
+	right: 0px;
 	width: 100%;
 	height: auto;
 	text-align: center;
 	margin-top: 80px;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
 	animation: slideDown 0.3s ease-out;
 }
 @keyframes slideDown {

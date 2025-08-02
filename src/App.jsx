@@ -1,6 +1,7 @@
 import HeaderSection from "./components/HeaderSection";
 import Hero from "./components/Hero";
 import Introduction from "./components/Introduction";
+import Why from "./components/Why";
 
 export default function App(){
   return(
@@ -8,6 +9,7 @@ export default function App(){
       <HeaderSection />
       <Hero />
       <Introduction />
+      <Why />
     </>
   )
 }
