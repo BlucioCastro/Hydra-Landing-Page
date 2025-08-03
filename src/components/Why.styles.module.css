@@ -10,3 +10,10 @@
   align-items: center;
   justify-content: center;
 }
+.container{
+  width: 100%;
+  overflow: hidden;
+}
+.content{
+  min-width: 100%;
+}

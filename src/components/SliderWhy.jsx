@@ -11,7 +11,7 @@ export default function SliderWhy({ image, title, description, onClick }) {
 				<img src={arrowLeft} alt="" />
 			</button>
 				<img src={image} alt="" className={styles.cardImage} />
-				<h2>{title}</h2>
+				<h2 className={styles.titles}>{title}</h2>
 				<div className={styles.line}></div>
 				<p className={styles.cardDescription}>{description}</p>
 				<BtnMain

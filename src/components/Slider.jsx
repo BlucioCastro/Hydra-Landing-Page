@@ -30,9 +30,6 @@ export default function Slider() {
 	];
 
 	const intervalRef = useRef(null);
-	const isDesktop = () => {
-		// irei exibir o slider de forma estatica
-	};
 	
 	useEffect(() => {
 		if (isMobile) {

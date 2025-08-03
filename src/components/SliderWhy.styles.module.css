@@ -13,7 +13,7 @@
 		rgb(58, 52, 86) 34%,
 		rgb(33, 30, 46) 63%
 	);
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 2rem;
   width: 31rem;
   height: 32rem;
@@ -27,6 +27,9 @@
   border-radius: 7rem;
   border: 10px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 2rem;
+}
+.titles{
+  color: #FFFF;
 }
 .line{
   background-color: rgb(129, 118, 175);
