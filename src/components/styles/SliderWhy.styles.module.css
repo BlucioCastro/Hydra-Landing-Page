@@ -1,4 +1,4 @@
-.container {
+.containerCard{
   position: relative;
 	display: flex;
   flex-direction: row;
@@ -15,7 +15,7 @@
 	);
   border-radius: 2rem;
   padding: 2rem;
-  width: 31rem;
+  width: 20rem;
   height: 32rem;
   display: flex;
   flex-direction: column;
@@ -40,29 +40,4 @@
 }
 .cardDescription{
   text-align: center;
-}
-.next{
-  background-color: transparent;
-  border: none;
-  border-radius: 5rem;
-  height: 2rem;
-  width: 2rem;
-  position: absolute;
-  top: 50%;
-  right: 1%;
-}
-.prev{
-  background-color: transparent;
-  border: none;
-  border-radius: 5rem;
-  height: 2rem;
-  width: 2rem;
-  position: absolute;
-  top: 50%;
-  left: 1%;
-}
-.next:hover, .prev:hover{
-  border: 1px solid #c0b7e8;
-  box-shadow: 0px 0px 10px #c0b7e8;
-  cursor: pointer;
 }

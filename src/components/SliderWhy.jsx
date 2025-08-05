@@ -1,15 +1,15 @@
 import BtnMain from "./BtnMain";
-import arrowLeft from "../assets/direction-left.png";
-import arrowRight from "../assets/direction-right.png";
-import styles from "./SliderWhy.styles.module.css";
+
+import styles from "./styles/SliderWhy.styles.module.css";
+import { useMediaQuery } from "react-responsive";
 
 export default function SliderWhy({ image, title, description, onClick }) {
+	const isMobile = useMediaQuery({maxWidth: 992})
+
 	return (
-		<div className={styles.container}>
+		<div className={styles.containerCard}>
 			<div className={styles.card}>
-			<button onClick={onClick} className={styles.prev}>
-				<img src={arrowLeft} alt="" />
-			</button>
+			
 				<img src={image} alt="" className={styles.cardImage} />
 				<h2 className={styles.titles}>{title}</h2>
 				<div className={styles.line}></div>
@@ -23,10 +23,11 @@ export default function SliderWhy({ image, title, description, onClick }) {
 						width: "100%",
 					}}
 				/>
-			<button onClick={onClick} className={styles.next}>
-				<img src={arrowRight} alt="" />
-			</button>
+
 			</div>
 		</div>
 	);
 }
+					{/* <button onClick={nextSlide} className={styles.next} style={styleNavBtn}>
+						<img src={arrowRight} alt="" />
+					</button> */}

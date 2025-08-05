@@ -1,4 +1,4 @@
-import styles from "./BtnMain.styles.module.css";
+import styles from "./styles/BtnMain.styles.module.css";
 
 export default function BtnMain({ value, path, style, rest }) {
 	return (

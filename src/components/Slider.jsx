@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import styles from "./Slider.styles.module.css";
+import styles from "./styles/Slider.styles.module.css";
 import dirLeft from "../assets/direction-left.png";
 import NavigationBtn from "./NavigationBtn";
 import dirRight from "../assets/direction-right.png";

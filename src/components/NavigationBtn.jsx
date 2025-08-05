@@ -1,4 +1,4 @@
-import styles from "./NavigationBtn.styles.module.css"
+import styles from "./styles/NavigationBtn.styles.module.css"
 export default function NavigationBtn({imgBtn, onClick}){
 
   return(

@@ -1,6 +1,6 @@
 import BtnMain from "./BtnMain";
 import arrowLong from "../assets/arrow-long.png"
-import styles from "./Introduction.styles.module.css"
+import styles from "./styles/Introduction.styles.module.css"
 import { useMediaQuery } from "react-responsive";
 
 export default function Introduction(){

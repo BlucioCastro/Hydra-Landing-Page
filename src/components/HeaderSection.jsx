@@ -1,6 +1,6 @@
 import { useState } from "react";
 import HamburguerMenu from "./HamburguerMenu";
-import styles from "./HeaderSection.styles.module.css";
+import styles from "./styles/HeaderSection.styles.module.css";
 import Logo from "../assets/logo.png";
 import { useMediaQuery } from "react-responsive";
 import BtnMain from "./BtnMain";
