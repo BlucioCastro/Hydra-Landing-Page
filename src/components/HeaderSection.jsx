@@ -28,16 +28,16 @@ export default function () {
 				<nav className={styles.navBar}>
 					<ul className={styles.containerUl}>
 						<li>
-							<a href="#about" target="_parent">ABOUT</a>
+							<a href="#about" target="_parent" className={styles.linksPage}>ABOUT</a>
 						</li>
 						<li>
-							<a href="#">SERVICES</a>
+							<a href="#" className={styles.linksPage}>SERVICES</a>
 						</li>
 						<li>
-							<a href="#">TECHNOLOGIES</a>
+							<a href="#" className={styles.linksPage}>TECHNOLOGIES</a>
 						</li>
 						<li>
-							<a href="#">HOW TO</a>
+							<a href="#" className={styles.linksPage}>HOW TO</a>
 						</li>
 					</ul>
 					<div className={styles.containerBtn}>

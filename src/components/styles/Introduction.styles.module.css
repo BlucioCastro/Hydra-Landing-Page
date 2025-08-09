@@ -31,9 +31,9 @@ h3 {
 	justify-content: center;
 	gap: 3rem;
 }
-	.containerAboutImg{
-		margin: 0 2rem;
-	}
+.containerAboutImg {
+	margin: 0 2rem;
+}
 .aboutImg {
 	border-radius: 13rem 3rem;
 	max-width: 21rem;
@@ -52,7 +52,7 @@ h3 {
 	margin: 3rem 0;
 }
 @media screen and (min-width: 992px) {
-	section {
+	.sectionAbout {
 		background-image: url("../../public/bg-about.png");
 		object-fit: cover;
 		background-position: center;
@@ -70,19 +70,19 @@ h3 {
 		transform: translateX(10px);
 		transition: all 0.5s ease;
 	}
-
 	.introductionTxt {
 		display: block;
 		text-align: justify;
+		width: 100%;
 	}
 	.about {
 		display: block;
 	}
 	.introMainContainer {
-		display: flex;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
 		align-items: center;
-		gap: 15rem;
+		gap: 3rem;
 		margin: 4rem 7rem;
 	}
 	.containerIntroduction {
@@ -97,35 +97,36 @@ h3 {
 	.toHydra {
 		display: flex;
 		align-items: center;
-		gap: 2rem;
+		gap: 1rem;
 	}
 	.aboutSection {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
 		margin: 0 7rem 3rem 7rem;
-		gap: 14rem;
+		gap: 3rem;
 	}
-	.containerAboutImg{
+	.containerAboutImg {
 		margin: 0;
 	}
 	.aboutImg {
 		max-width: 25rem;
 		max-height: 26rem;
 	}
-	.containerAbout{
+	.containerAbout {
 		display: flex;
 		flex-direction: column;
 		/* align-items: flex-start; */
+		width: 100%;
 	}
-	.about{
+	.about {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: flex-start;
-		padding-bottom: 2rem ;
+		padding-bottom: 2rem;
 	}
-	.aboutTxtContainer{
+	.aboutTxtContainer {
 		margin: 0;
+		min-width: 308.55px;
 	}
 }

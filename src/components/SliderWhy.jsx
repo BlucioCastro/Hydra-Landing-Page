@@ -1,11 +1,8 @@
 import BtnMain from "./BtnMain";
 
 import styles from "./styles/SliderWhy.styles.module.css";
-import { useMediaQuery } from "react-responsive";
 
 export default function SliderWhy({ image, title, description, onClick }) {
-	const isMobile = useMediaQuery({maxWidth: 992})
-
 	return (
 		<div className={styles.containerCard}>
 			<div className={styles.card}>

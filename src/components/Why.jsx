@@ -139,10 +139,12 @@ export default function Why() {
 				: 
 				<div className={styles.containerCardDesktop}>
 					{slides.map((slide) =>(
-						<SliderWhy image={slide.image}
-						title={slide.title}
-						description={slide.description}
-						/>
+						<div key={slide.id}>
+							<SliderWhy image={slide.image}
+							title={slide.title}
+							description={slide.description}
+							/>
+						</div>
 					))}
 				</div>
 				}

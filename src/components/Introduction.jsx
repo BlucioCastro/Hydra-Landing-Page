@@ -12,7 +12,7 @@ export default function Introduction(){
   }
 
   return(
-    <section id="about">
+    <section id="about" className={styles.sectionAbout}>
       <div className={styles.introMainContainer}>
         <div className={styles.containerIntroduction}>
           <h2>

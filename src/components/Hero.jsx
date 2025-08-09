@@ -3,9 +3,6 @@ import arrowToRight from "../assets/arrowRight.png";
 import imageHero from "../assets/hero-image.png";
 import styles from "./styles/Hero.styles.module.css";
 import Slider from "./Slider";
-import dirLeft from "../assets/direction-left.png"
-import dirRight from "../assets/direction-right.png"
-import NavigationBtn from "./NavigationBtn";
 
 export default function Hero() {
 	return (

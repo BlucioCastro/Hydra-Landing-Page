@@ -4,7 +4,8 @@
   flex-direction: row;
 	justify-content: center;
   align-items: center;
-	margin: 2rem 2rem;
+	margin: 2rem 0rem;
+  width: auto;
 }
 .card {
   position: relative;
@@ -15,8 +16,8 @@
 	);
   border-radius: 2rem;
   padding: 2rem;
-  width: 20rem;
-  height: 32rem;
+  max-width: 20rem;
+  max-height: 32rem;
   display: flex;
   flex-direction: column;
   align-items: center;

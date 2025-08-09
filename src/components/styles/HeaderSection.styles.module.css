@@ -5,7 +5,7 @@
 	padding: 1rem 3rem;
 	position: fixed;
 	width: 100%;
-	z-index: 1;
+	z-index: 99;
 }
 .logoContainer{
 	display: flex;
@@ -53,7 +53,7 @@ a {
 }
 .containerUl li,
 a:hover {
-	color: #746c9d;
+	color: #BFB6E7;
 }
 .containerUl {
 	display: flex;
@@ -105,8 +105,9 @@ a:hover {
 		flex-direction: row;
 		justify-content: center;
 		gap: 2rem;
-		padding: 1rem 3rem;
+		padding: 0 3rem;
 		width: 100%;
+		border-bottom: 1px solid #ffff;
 	}
 	.navBar {
 		display: flex;
