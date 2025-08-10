@@ -12,7 +12,9 @@ export default function () {
 	return (
 		<header className={styles.headerStyle}>
 			<div className={styles.logoContainer}>
-				<img src={Logo} alt="logo" className={styles["img-logo"]} />
+				<a href="#hero">
+					<img src={Logo} alt="logo" className={styles["img-logo"]}/>
+				</a>
 			</div>
 
 			{!isDesktop && (
@@ -31,17 +33,17 @@ export default function () {
 							<a href="#about" target="_parent" className={styles.linksPage}>ABOUT</a>
 						</li>
 						<li>
-							<a href="#" className={styles.linksPage}>SERVICES</a>
+							<a href="#services" target="_parent" className={styles.linksPage}>SERVICES</a>
 						</li>
 						<li>
-							<a href="#" className={styles.linksPage}>TECHNOLOGIES</a>
+							<a href="#technologies" target="_parent" className={styles.linksPage}>TECHNOLOGIES</a>
 						</li>
 						<li>
-							<a href="#" className={styles.linksPage}>HOW TO</a>
+							<a href="#HowTo" target="_parent" className={styles.linksPage}>HOW TO</a>
 						</li>
 					</ul>
 					<div className={styles.containerBtn}>
-						<a href="#" className={styles.contactUs}>
+						<a href="#contactus" className={styles.contactUs}>
 							CONTACT US
 						</a>
 						<a href="#" className={styles.join}>
@@ -54,20 +56,20 @@ export default function () {
 					<nav className={styles.navBar}>
 						<ul className={styles.containerUl}>
 							<li>
-								<a href="#">ABOUT</a>
+								<a href="#about" target="_parent">ABOUT</a>
 							</li>
 							<li>
-								<a href="#">SERVICES</a>
+								<a href="#services" target="_parent">SERVICES</a>
 							</li>
 							<li>
-								<a href="#">TECHNOLOGIES</a>
+								<a href="#technologies" target="_parent">TECHNOLOGIES</a>
 							</li>
 							<li>
-								<a href="#">HOW TO</a>
+								<a href="#HowTo" target="_parent">HOW TO</a>
 							</li>
 						</ul>
 						<div className={styles.containerBtn}>
-							<a href="#" className={styles.contactUs}>
+							<a href="#contactus" className={styles.contactUs}>
 								CONTACT US
 							</a>
 							<a href="#" className={styles.join}>

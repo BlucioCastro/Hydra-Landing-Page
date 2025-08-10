@@ -25,6 +25,3 @@ export default function SliderWhy({ image, title, description, onClick }) {
 		</div>
 	);
 }
-					{/* <button onClick={nextSlide} className={styles.next} style={styleNavBtn}>
-						<img src={arrowRight} alt="" />
-					</button> */}

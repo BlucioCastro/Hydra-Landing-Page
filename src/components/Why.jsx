@@ -78,7 +78,7 @@ export default function Why() {
 		  };
 
 	return (
-		<section className={styles.thisSection}>
+		<section className={styles.thisSection} id="services">
 			<div>
 				<div className={styles.containerTitleAndTxt}>
 					<div className={styles.titleContainer}>

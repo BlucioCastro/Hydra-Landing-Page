@@ -76,8 +76,8 @@
 		display: grid;
 		background-color: transparent;
 		grid-template-columns: 2fr 1fr;
-		padding-top: 160px;
-		margin: 0 5rem;
+		padding-top: 5rem;
+		margin: 0 7rem;
 	}
 	.mainContent {
 		grid-column: 1;

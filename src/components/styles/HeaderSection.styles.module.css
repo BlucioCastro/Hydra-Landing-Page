@@ -107,7 +107,7 @@ a:hover {
 		gap: 2rem;
 		padding: 0 3rem;
 		width: 100%;
-		border-bottom: 1px solid #ffff;
+		/* border-bottom: 1px solid #ffff; */
 	}
 	.navBar {
 		display: flex;

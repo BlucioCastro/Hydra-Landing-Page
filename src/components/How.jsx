@@ -48,7 +48,7 @@ export default function How() {
   }
 
 	return (
-		<section>
+		<section id="HowTo">
 			<div className={styles.containerTitleAndTxt}>
 				<div className={styles.titleContainer}>
 					<div className={styles.containerH2}>

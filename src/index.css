@@ -8,5 +8,7 @@ body {
 	background-color: #343045;
 	font-family: sans-serif, Montserrat;
 	width: 100%;
-	
+}
+html{
+	scroll-behavior: smooth;
 }

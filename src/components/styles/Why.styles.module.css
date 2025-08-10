@@ -90,13 +90,13 @@
     background-image: url("../../public/bg-service-tech.png");
     background-position: top;
     background-repeat: no-repeat;
+		padding-top: 5rem;
   }
-
   .containerTitleAndTxt{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 		align-items: center;
-    margin: 4rem 7rem;
+    margin: 2rem 7rem;
     gap: 3rem;
   }
 	.txtContainer {
@@ -109,7 +109,7 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		gap: 1rem;
-		padding: 2rem;
+		padding: 0 2rem;
 		width: 100%;
 	}
 	.containerCard{

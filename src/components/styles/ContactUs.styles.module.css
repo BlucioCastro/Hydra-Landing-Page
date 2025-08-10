@@ -1,0 +1,93 @@
+.container {
+	background-image: radial-gradient(circle, #3a3456 34%, #211e2e 63%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem;
+	margin: 3rem 2rem;
+	border-radius: 2rem;
+}
+.container h2 {
+	text-align: center;
+}
+.container p {
+	margin-bottom: 2rem;
+	color: #ffff;
+	font-weight: 500;
+	font-size: 1.2rem;
+	text-align: center;
+}
+.line {
+	background-color: rgb(129, 118, 175);
+	height: 1px;
+	margin: 1rem auto;
+	width: 80%;
+	padding: 0.5px;
+}
+.firstAndLast {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.emailAndTel {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.subAndTxt {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+}
+input,
+textarea {
+	background-color: transparent;
+	border: 2px solid #b6adde;
+	border-radius: 2rem;
+	padding: 0.5rem 1rem;
+	font-family: sans-serif, Montserrat;
+	font-size: 1rem;
+  color: #ffff;
+}
+.containerBtn {
+	margin: 3rem 0 2rem 0;
+}
+@media screen and (min-width: 992px) {
+  section{
+    padding-top: 4rem;
+  }
+  .container{
+    margin: 5rem 7rem;
+    width: auto;
+  }
+	form {
+		display: flex;
+		flex-direction: column;
+    width: 100%;
+	}
+  input, textarea{
+    padding: 1rem;
+  }
+	.firstAndLast {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+    width: 100%;
+	}
+	.emailAndTel {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 1rem;
+	}
+	.subAndTxt {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+	}
+}

@@ -4,6 +4,8 @@ import Introduction from "./components/Introduction";
 import Why from "./components/Why";
 import TechHard from "./components/TechHard";
 import How from "./components/How";
+import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 export default function App() {
 	return (
@@ -14,6 +16,8 @@ export default function App() {
 			<Why />
 			<TechHard />
       <How />
+			<ContactUs />
+			<Footer />
 		</>
 	);
 }

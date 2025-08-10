@@ -43,7 +43,7 @@ export default function TechHard() {
     transform: "none"
   }
 	return (
-		<section>
+		<section id="technologies">
 			<div className={styles.containerTitles}>
 				<h2>TECHONOLOGIES & HARDWARE</h2>
 				<h3>USED BY HYDRA VR.</h3>

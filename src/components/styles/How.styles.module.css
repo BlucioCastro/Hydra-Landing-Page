@@ -43,7 +43,7 @@
   .containerTitleAndTxt{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 3rem 7rem;
+    margin: 4rem 7rem;
     gap: 2rem;
   }
 
