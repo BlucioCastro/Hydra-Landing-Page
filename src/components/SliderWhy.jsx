@@ -1,5 +1,4 @@
 import BtnMain from "./BtnMain";
-
 import styles from "./styles/SliderWhy.styles.module.css";
 
 export default function SliderWhy({ image, title, description, onClick }) {

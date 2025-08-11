@@ -2,6 +2,7 @@ import BtnMain from "./BtnMain";
 import arrowLong from "../assets/arrow-long.png"
 import styles from "./styles/Introduction.styles.module.css"
 import { useMediaQuery } from "react-responsive";
+import aboutImg from "../assets/about-image.png"
 
 export default function Introduction(){
   const isMobile = useMediaQuery({maxWidth:992})
@@ -31,7 +32,7 @@ export default function Introduction(){
       </div>
       <div className={styles.aboutSection}>
         <div className={styles.containerAboutImg}>
-          <img src="src\assets\about-image.png" alt="aboutImg" className={styles.aboutImg} />
+          <img src={aboutImg} alt="aboutImg" className={styles.aboutImg} />
         </div>
         <div className={styles.containerAbout}>
           <div className={styles.about}>

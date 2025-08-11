@@ -80,7 +80,7 @@
 		width: 100%;
 	}
 	.containerSlide {
-		background-image: url("public/bg-how-to.png");
+		background-image: url("/bg-how-to.png");
 		background-repeat: no-repeat;
 		background-position: top center;
 		display: flex;

@@ -53,7 +53,7 @@ h3 {
 }
 @media screen and (min-width: 992px) {
 	.sectionAbout {
-		background-image: url("../../public/bg-about.png");
+		background-image: url("/bg-about.png");
 		object-fit: cover;
 		background-position: center;
 		/* background-repeat: no-repeat; */

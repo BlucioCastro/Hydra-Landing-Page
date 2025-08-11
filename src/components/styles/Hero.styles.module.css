@@ -1,5 +1,5 @@
 .bgImageContainer {
-	background-image: url("public/hero-bg-mobile.png");
+	background-image: url("/hero-bg-mobile.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
